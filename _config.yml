@@ -8,13 +8,13 @@ author:
 
 navbar-links:
   Home: ""
-  Cycle & Fertility: "/PeriodWise-Website/cycle-fertility/"
+  Cycle & Fertility: "cycle-fertility"
   Blog: "blog"
   Shop: "shop"
   PeriodWise App: "https://app.periodwise.online"
   About: "about"
   Contact: "contact"
-
+  
 remote_theme: daattali/beautiful-jekyll
 
 plugins:
@@ -26,7 +26,7 @@ markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title/
 
-timezone: Africa/Lagos
+timezone: United States/New York 
 
 exclude:
   - README.md
