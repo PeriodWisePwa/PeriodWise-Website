@@ -1,0 +1,33 @@
+title: PeriodWise
+description: Understand your cycle. Understand your body.
+url: "https://periodwise.online"
+baseurl: ""
+
+author:
+  name: PeriodWise
+
+navbar-links:
+  Home: ""
+  Blog: "blog"
+  Shop: "shop"
+  PeriodWise App: "https://app.periodwise.online"
+  About: "about"
+  Contact: "contact"
+
+remote_theme: daattali/beautiful-jekyll
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title/
+
+timezone: Africa/Lagos
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
