@@ -4,6 +4,86 @@ title: Cycle Clarity Kit
 subtitle: Understand your cycle. Recognize your patterns. Feel more informed.
 ---
 
+<style>
+.product-hero {
+  text-align: center;
+  max-width: 850px;
+  margin: 20px auto 45px;
+}
+
+.product-mockup {
+  margin: 30px auto;
+  max-width: 650px;
+  min-height: 320px;
+  border: 2px dashed #ddd;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: #fafafa;
+}
+
+.product-mockup-text {
+  color: #777;
+  font-size: 16px;
+}
+
+.buy-button {
+  display: inline-block;
+  margin: 15px 0;
+  padding: 14px 28px;
+  border-radius: 8px;
+  background: #222;
+  color: white !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.product-section {
+  margin: 50px 0;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+  margin-top: 25px;
+}
+
+.product-card {
+  padding: 25px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.preview-box {
+  margin: 25px 0;
+  padding: 35px;
+  text-align: center;
+  border: 2px dashed #ddd;
+  border-radius: 14px;
+  background: #fafafa;
+}
+
+.video-box {
+  margin: 25px 0;
+  padding: 45px 25px;
+  text-align: center;
+  border-radius: 14px;
+  background: #f5f5f5;
+}
+
+.final-cta {
+  margin: 55px 0 25px;
+  padding: 35px;
+  text-align: center;
+  border-radius: 16px;
+  background: #f7f7f7;
+}
+</style>
+
 <div class="product-hero">
 
 ## 🌸 Cycle Clarity Kit
