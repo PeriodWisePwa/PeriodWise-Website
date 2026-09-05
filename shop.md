@@ -80,8 +80,7 @@ A practical fertility-awareness resource designed to help you understand your cy
 - Body-Signal Checklist
 - Practical cycle-awareness guidance
 
-<a class="product-button" href="#">Learn More</a>
-
+<a class="product-button" href="{{ '/cycle-clarity-kit/' | relative_url }}">Learn More</a>
 </div>
 
 <div class="product-card">
