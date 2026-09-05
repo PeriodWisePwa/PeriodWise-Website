@@ -79,7 +79,7 @@ A practical fertility-awareness resource designed to help you understand your cy
 - Fertile Window Blueprint
 - Body-Signal Checklist
 - Practical cycle-awareness guidance
-
+ 
 <a class="product-button" href="{{ '/cycle-clarity-kit/' | relative_url }}">Learn More</a>
 </div>
 
