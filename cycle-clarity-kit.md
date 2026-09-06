@@ -92,13 +92,11 @@ A practical digital resource designed to help you better understand your menstru
 
 <div class="product-mockup">
 
-**PRODUCT MOCKUP**
-
-Your Cycle Clarity Kit cover/mockup will appear here.
-
-</div>
-
-<a class="buy-button" href="#">Get the Cycle Clarity Kit</a>
+<img
+  src="{{ '/Add Cycle Clarity Kit product image .png' | relative_url }}"
+  alt="Cycle Clarity Kit - Stop Guessing Your Fertile Window"
+  style="width: 100%; max-width: 600px; height: auto; border-radius: 12px;"
+>
 
 </div>
 
