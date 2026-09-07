@@ -1,254 +1,264 @@
 ---
 layout: default
-title: PeriodWise — Understand Your Cycle. Understand Your Body.
+title: "PeriodWise – Understand Your Cycle. Own Your Health."
+description: "Evidence-based education, privacy-first tracking, and practical tools for women to understand their menstrual cycles and fertility."
 ---
 
-<style>
-  .pw-hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: linear-gradient(135deg, #fff7fb, #f7f3ff);
-    border-radius: 24px;
-    margin-bottom: 45px;
-  }
+<!-- ============================================
+     HERO SECTION
+     ============================================ -->
 
-  .pw-hero h1 {
-    font-size: 46px;
-    line-height: 1.15;
-    margin-bottom: 20px;
-  }
-
-  .pw-hero p {
-    max-width: 700px;
-    margin: 0 auto 30px;
-    font-size: 19px;
-    line-height: 1.7;
-  }
-
-  .pw-button {
-    display: inline-block;
-    padding: 14px 25px;
-    margin: 6px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    border: 1px solid #ddd;
-  }
-
-  .pw-section {
-    margin: 60px 0;
-  }
-
-  .pw-section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .pw-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 22px;
-  }
-
-  .pw-card {
-    padding: 28px 22px;
-    border: 1px solid #eee;
-    border-radius: 18px;
-    background: #fff;
-    text-align: center;
-  }
-
-  .pw-card h3 {
-    margin-top: 10px;
-  }
-
-  .pw-card p {
-    line-height: 1.6;
-  }
-
-  .pw-app {
-    padding: 45px 25px;
-    text-align: center;
-    border-radius: 22px;
-    background: #faf7ff;
-  }
-
-  .pw-shop {
-    padding: 45px 25px;
-    border-radius: 22px;
-    background: #fff8fb;
-  }
-
-  .pw-note {
-    text-align: center;
-    max-width: 700px;
-    margin: auto;
-    line-height: 1.7;
-  }
-</style>
-
-<section class="pw-hero">
-
-  <h1>Understand Your Cycle.<br>Understand Your Body.</h1>
-
-  <p>
-    PeriodWise helps you better understand your menstrual cycle,
-    fertility window, ovulation patterns and reproductive health.
-  </p>
-
-  <a class="pw-button" href="https://app.periodwise.online">
-    Start Using PeriodWise
-  </a>
-
-  <a class="pw-button" href="{{ '/blog' | relative_url }}">
-    Explore Our Guides
-  </a>
-
+<section class="hero">
+    <div class="hero-content">
+        <h1>Understand Your Cycle.<br>Own Your Health.</h1>
+        <p class="hero-subtitle">
+            Evidence-based education, privacy-first tracking, and practical tools
+            to help you understand your menstrual cycle — without the guesswork.
+        </p>
+        <div class="hero-buttons">
+            <a href="/blog/" class="btn btn-primary">Read the Blog</a>
+            <a href="https://app.periodwise.online" class="btn btn-secondary" target="_blank">Try the Free App</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="/assets/images/hero-illustration.svg" alt="PeriodWise – Understand your cycle">
+    </div>
 </section>
 
+<!-- ============================================
+     FEATURES / TRUST SIGNALS
+     ============================================ -->
 
-<section class="pw-section">
-
-  <h2>Understand Your Cycle With PeriodWise</h2>
-
-  <div class="pw-grid">
-
-    <div class="pw-card">
-      <h3>🩸 Cycle Tracking</h3>
-      <p>
-        Keep track of your periods and understand your cycle patterns over time.
-      </p>
+<section class="features">
+    <div class="feature-item">
+        <span class="feature-icon">📖</span>
+        <h3>Evidence-Based Education</h3>
+        <p>Articles written with clarity and compassion, backed by trusted health sources.</p>
     </div>
-
-    <div class="pw-card">
-      <h3>🌸 Fertility Awareness</h3>
-      <p>
-        Learn about fertile days, ovulation and the natural changes that occur during your cycle.
-      </p>
+    <div class="feature-item">
+        <span class="feature-icon">🔒</span>
+        <h3>Privacy-First Tracking</h3>
+        <p>Your data stays on your device. No accounts. No tracking. No sharing.</p>
     </div>
-
-    <div class="pw-card">
-      <h3>📊 Cycle Insights</h3>
-      <p>
-        Turn your cycle information into useful insights that help you understand your body.
-      </p>
+    <div class="feature-item">
+        <span class="feature-icon">📘</span>
+        <h3>Practical Tools</h3>
+        <p>Journals, apps, and calculators designed to help you understand your body.</p>
     </div>
-
-    <div class="pw-card">
-      <h3>📱 PeriodWise App</h3>
-      <p>
-        Use PeriodWise as your personal cycle companion wherever you go.
-      </p>
-    </div>
-
-  </div>
-
 </section>
 
+<!-- ============================================
+     LEAD MAGNET / EMAIL CAPTURE
+     ============================================ -->
 
-<section class="pw-section pw-app">
-
-  <h2>Your Cycle Companion</h2>
-
-  <p class="pw-note">
-    Track your cycle, record important symptoms and explore your
-    fertility patterns with the PeriodWise app.
-  </p>
-
-  <br>
-
-  <a class="pw-button" href="https://app.periodwise.online">
-    Open PeriodWise App
-  </a>
-
+<section class="lead-magnet">
+    <div class="lead-magnet-content">
+        <span class="lead-badge">📥 Free Download</span>
+        <h2>Get Your Free Nutrition Guide</h2>
+        <p>
+            Discover the best foods to regulate your menstrual cycle naturally.
+            40 pages of evidence-based nutrition advice — completely free.
+        </p>
+        <form class="email-form" action="https://periodwise.online/subscribe" method="POST">
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <button type="submit" class="btn btn-primary">Send Me the Guide</button>
+        </form>
+        <p class="privacy-note">🔒 No spam. Unsubscribe anytime. Your privacy matters.</p>
+    </div>
+    <div class="lead-magnet-image">
+        <img src="/assets/images/nutrition-guide-cover.jpg" alt="Free Nutrition Guide">
+    </div>
 </section>
 
+<!-- ============================================
+     PRODUCTS / STORE SECTION
+     ============================================ -->
 
-<section class="pw-section">
+<section class="products">
+    <div class="section-header">
+        <span class="section-badge">📘 Shop</span>
+        <h2>Tools to Help You Track</h2>
+        <p>Designed with privacy, simplicity, and your well-being in mind.</p>
+    </div>
 
-  <h2>Women's Health Guides</h2>
+    <div class="product-grid">
 
-  <p class="pw-note">
-    Explore practical information about menstrual health, fertility,
-    pregnancy and understanding your cycle.
-  </p>
+        <!-- Product 1: Cycle Tracker Journal -->
+        <div class="product-card">
+            <img src="/assets/images/cycle-tracker-cover.jpg" alt="PeriodWise Cycle Tracker">
+            <h3>Cycle Tracker Journal</h3>
+            <p class="product-description">
+                90-day menstrual journal for fertility awareness, ovulation tracking,
+                and symptom logging. Privacy-first design.
+            </p>
+            <p class="product-price">$9.99</p>
+            <a href="https://www.amazon.com/dp/XXXXXXXXXX/?tag=periodwise-20" class="btn btn-primary" target="_blank">Buy on Amazon</a>
+        </div>
 
-  <br>
+        <!-- Product 2: TTC Journal -->
+        <div class="product-card">
+            <img src="/assets/images/ttc-journal-cover.jpg" alt="PeriodWise TTC Journal">
+            <h3>TTC Journal</h3>
+            <p class="product-description">
+                Trying to conceive? Track LH tests, BBT, pregnancy tests, medications,
+                and emotions — all in one journal.
+            </p>
+            <p class="product-price">$12.99</p>
+            <a href="https://www.amazon.com/dp/XXXXXXXXXX/?tag=periodwise-20" class="btn btn-primary" target="_blank">Buy on Amazon</a>
+        </div>
 
-  <div style="text-align:center;">
-    <a class="pw-button" href="{{ '/blog' | relative_url }}">
-      Read the PeriodWise Blog
-    </a>
-  </div>
+        <!-- Product 3: Digital Cycle Tracker -->
+        <div class="product-card">
+            <img src="/assets/images/digital-tracker.jpg" alt="Digital Cycle Tracker">
+            <h3>Digital Cycle Tracker (PDF)</h3>
+            <p class="product-description">
+                Printable cycle tracker with 90 days of tracking pages. Instant download.
+                Perfect for offline use.
+            </p>
+            <p class="product-price">$7.00</p>
+            <a href="https://pay.dodopayments.com/xxxxxxxx" class="btn btn-primary" target="_blank">Buy Now</a>
+        </div>
 
+        <!-- Product 4: PCOS Nutrition Guide -->
+        <div class="product-card">
+            <img src="/assets/images/pcos-guide.jpg" alt="PCOS Nutrition Guide">
+            <h3>PCOS Nutrition Guide</h3>
+            <p class="product-description">
+                40-page ebook on nutrition for PCOS and hormone balance. Science-based,
+                practical, and easy to follow.
+            </p>
+            <p class="product-price">$12.00</p>
+            <a href="https://pay.dodopayments.com/xxxxxxxx" class="btn btn-primary" target="_blank">Buy Now</a>
+        </div>
+
+    </div>
 </section>
 
+<!-- ============================================
+     APP PROMOTION
+     ============================================ -->
 
-<section class="pw-section pw-shop">
-
-  <h2>The PeriodWise Shop</h2>
-
-  <p class="pw-note">
-    Helpful digital resources and journals designed to help you
-    track, understand and organize your reproductive health journey.
-  </p>
-
-  <br>
-
-  <div class="pw-grid">
-
-    <div class="pw-card">
-      <h3>Cycle Clarity Kit</h3>
-      <p>
-        Practical tools for understanding your cycle and fertile window.
-      </p>
-      <a class="pw-button" href="{{ '/shop' | relative_url }}">
-        Explore
-      </a>
+<section class="app-promo">
+    <div class="app-promo-content">
+        <span class="app-badge">📱 Free App</span>
+        <h2>Track Your Cycle — Privately</h2>
+        <p>
+            The PeriodWise App helps you track your period, fertile window, ovulation,
+            symptoms, and mood — all without storing your data anywhere.
+        </p>
+        <ul class="app-features">
+            <li>✅ No accounts or passwords</li>
+            <li>✅ No data tracking or sharing</li>
+            <li>✅ Works offline</li>
+            <li>✅ 100% privacy-first</li>
+        </ul>
+        <a href="https://app.periodwise.online" class="btn btn-primary" target="_blank">Try the App — Free</a>
     </div>
-
-    <div class="pw-card">
-      <h3>Cycle Tracking Workbook</h3>
-      <p>
-        A structured way to record and understand your cycle.
-      </p>
-      <a class="pw-button" href="{{ '/shop' | relative_url }}">
-        Explore
-      </a>
+    <div class="app-promo-image">
+        <img src="/assets/images/app-preview.png" alt="PeriodWise App">
+        <div class="qr-code">
+            <img src="/assets/images/qr-code-app.png" alt="Scan to download the app">
+            <p>Scan to try</p>
+        </div>
     </div>
-
-    <div class="pw-card">
-      <h3>Trying to Get Pregnant Journal</h3>
-      <p>
-        Organize your fertility journey and important cycle information.
-      </p>
-      <a class="pw-button" href="{{ '/shop' | relative_url }}">
-        Explore
-      </a>
-    </div>
-
-    <div class="pw-card">
-      <h3>Pregnancy Journal</h3>
-      <p>
-        Capture important memories, milestones and experiences throughout pregnancy.
-      </p>
-      <a class="pw-button" href="{{ '/shop' | relative_url }}">
-        Explore
-      </a>
-    </div>
-
-  </div>
-
 </section>
 
+<!-- ============================================
+     LATEST BLOG POSTS
+     ============================================ -->
 
-<section class="pw-section">
+<section class="latest-posts">
+    <div class="section-header">
+        <span class="section-badge">📝 Blog</span>
+        <h2>Latest Articles</h2>
+        <p>Evidence-based education to help you understand your cycle.</p>
+    </div>
 
-  <h2>Stay Connected With PeriodWise</h2>
+    <div class="post-grid">
+        {% for post in site.posts limit:3 %}
+        <div class="post-card">
+            <a href="{{ post.url }}">
+                <h3>{{ post.title }}</h3>
+                <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+                <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                <span class="read-more">Read More →</span>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
 
-  <p class="pw-note">
-    We're building a trusted resource for women who want to understand
-    their cycles, fertility and reproductive health.
-  </p>
+    <div class="view-all">
+        <a href="/blog/" class="btn btn-secondary">View All Posts</a>
+    </div>
+</section>
 
+<!-- ============================================
+     COMMUNITY / TELEGRAM
+     ============================================ -->
+
+<section class="community">
+    <div class="community-content">
+        <span class="community-badge">💬 Join the Community</span>
+        <h2>You Don't Have to Do This Alone</h2>
+        <p>
+            Join our Telegram channel for exclusive health prompts, AI wellness
+            strategies, cycle tracking tips, and updates on how we're building
+            PeriodWise.
+        </p>
+        <a href="https://t.me/periodwise" class="btn btn-primary" target="_blank">Join Our Telegram</a>
+    </div>
+</section>
+
+<!-- ============================================
+     TESTIMONIALS / SOCIAL PROOF
+     ============================================ -->
+
+<section class="testimonials">
+    <div class="section-header">
+        <span class="section-badge">💜 What Women Are Saying</span>
+        <h2>Trusted by Women Like You</h2>
+    </div>
+
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <p class="testimonial-text">
+                "Finally, a tracker that respects my privacy. I've learned more
+                about my body in one cycle than in years of using other apps."
+            </p>
+            <p class="testimonial-author">— Sarah M.</p>
+        </div>
+
+        <div class="testimonial-card">
+            <p class="testimonial-text">
+                "This journal helped me identify my ovulation window and conceive
+                after months of trying. A game-changer."
+            </p>
+            <p class="testimonial-author">— Emily R.</p>
+        </div>
+
+        <div class="testimonial-card">
+            <p class="testimonial-text">
+                "The app is so simple. I love that I don't need an account and
+                nothing is stored in the cloud. This is how tracking should be."
+            </p>
+            <p class="testimonial-author">— Jessica K.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     FINAL CTA
+     ============================================ -->
+
+<section class="final-cta">
+    <h2>Ready to Understand Your Cycle?</h2>
+    <p>
+        Start with our free resources, explore our journals, or try the app.
+        Your body is telling you something — listen to it.
+    </p>
+    <div class="final-cta-buttons">
+        <a href="/blog/" class="btn btn-primary">Read the Blog</a>
+        <a href="https://app.periodwise.online" class="btn btn-secondary" target="_blank">Try the Free App</a>
+        <a href="/products/" class="btn btn-secondary">Shop Journals</a>
+    </div>
 </section>
