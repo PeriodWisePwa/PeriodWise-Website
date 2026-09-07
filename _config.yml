@@ -1,34 +1,163 @@
+# ============================================
+# PERIODWISE - CONFIG.YML
+# A Beautiful, Conversion-Focused Jekyll Site
+# ============================================
+
+# ----- SITE SETTINGS -----
 title: PeriodWise
-description: Understand your cycle. Understand your body.
-url: "https://periodwisepwa.github.io"
-baseurl: "/PeriodWise-Website"
+subtitle: "Understand Your Cycle. Own Your Health."
+description: >-
+  PeriodWise helps women understand their menstrual cycles through practical
+  education, privacy-first tracking, and simple tools designed to make cycle
+  awareness easier.
 
+baseurl: "" # Leave blank for root domain
+url: "https://periodwise.github.io" # Replace with your domain
+
+# ----- AUTHOR -----
 author:
-  name: PeriodWise
+  name: Suzan Hutchinson
+  email: hello@periodwise.online
+  bio: >-
+    Menstrual health educator and founder of PeriodWise. Passionate about
+    helping women understand their cycles and take control of their health.
+  twitter: periodwise
+  instagram: periodwise
+  youtube: periodwise
 
-navbar-links:
-  Home: ""
-  Cycle & Fertility: "cycle-fertility"
-  Blog: "blog"
-  Shop: "shop"
-  PeriodWise App: "https://app.periodwise.online"
-  About: "about"
-  Contact: "contact"
-  
-remote_theme: daattali/beautiful-jekyll
+# ----- BRAND COLORS -----
+# These are used in themes, buttons, and social sharing
+brand:
+  primary: "#6B5B7B"
+  primary-light: "#B8B0D6"
+  primary-dark: "#4A3A5A"
+  accent: "#F5D6D6"
+  cream: "#FFF8F0"
+  text-dark: "#3D3D3D"
 
+# ----- SEO & SOCIAL -----
+# These appear in search results and social shares
+seo:
+  title: "PeriodWise – Understand Your Cycle. Own Your Health."
+  description: >-
+    Evidence-based education, privacy-first tracking, and practical tools
+    for women to understand their menstrual cycles and fertility.
+  image: "/assets/images/periodwise-og-image.jpg"
+
+social:
+  links:
+    - "https://twitter.com/periodwise"
+    - "https://instagram.com/periodwise"
+    - "https://youtube.com/periodwise"
+
+# ----- NAVIGATION -----
+# This creates your main menu
+navigation:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: About
+    url: /about/
+  - title: Products
+    url: /products/
+  - title: App
+    url: https://app.periodwise.online
+  - title: Contact
+    url: /contact/
+
+# ----- PRODUCTS (For Store Page) -----
+# These appear on your /products/ page
+products:
+  - name: PeriodWise Cycle Tracker Journal
+    description: 90-day menstrual journal for fertility awareness and tracking
+    price: "$9.99"
+    amazon_link: "https://www.amazon.com/dp/XXXXXXXXXX"
+    image: "/assets/images/cycle-tracker-cover.jpg"
+
+  - name: PeriodWise TTC Journal
+    description: Trying to conceive journal with LH tracking and pregnancy logs
+    price: "$12.99"
+    amazon_link: "https://www.amazon.com/dp/XXXXXXXXXX"
+    image: "/assets/images/ttc-journal-cover.jpg"
+
+  - name: Digital Cycle Tracker (PDF)
+    description: Printable cycle tracker with 90 days of tracking pages
+    price: "$7.00"
+    payment_link: "https://pay.dodopayments.com/xxxxxxxx"
+    image: "/assets/images/digital-tracker.jpg"
+
+  - name: PCOS Nutrition Guide
+    description: 40-page ebook on nutrition for PCOS and hormone balance
+    price: "$12.00"
+    payment_link: "https://pay.dodopayments.com/xxxxxxxx"
+    image: "/assets/images/pcos-guide.jpg"
+
+# ----- AFFILIATE LINKS -----
+# These appear in blog posts and the store
+affiliates:
+  bbt_thermometer: "https://www.amazon.com/dp/XXXXXXXXXX/?tag=periodwise-20"
+  lh_strips: "https://www.amazon.com/dp/XXXXXXXXXX/?tag=periodwise-20"
+  pregnancy_test: "https://www.amazon.com/dp/XXXXXXXXXX/?tag=periodwise-20"
+
+# ----- APP LINKS -----
+app:
+  url: "https://app.periodwise.online"
+  qr_code: "/assets/images/qr-code-app.png"
+
+# ----- COMMUNITY -----
+community:
+  telegram: "https://t.me/periodwise"
+  email: "https://periodwise.online/subscribe"
+
+# ----- LEAD MAGNETS -----
+# Free resources to capture emails
+lead_magnets:
+  - title: "Best Foods to Regulate Your Menstrual Cycle Naturally"
+    description: "Free ebook – 40 pages of evidence-based nutrition advice"
+    download_link: "https://periodwise.online/free-nutrition-guide"
+    image: "/assets/images/nutrition-guide-cover.jpg"
+
+  - title: "Fertile Window Calculator"
+    description: "Calculate your fertile window and ovulation day instantly"
+    tool_link: "/fertile-window-calculator"
+    image: "/assets/images/calculator-preview.jpg"
+
+# ----- DISCLAIMERS -----
+disclaimer: >-
+  This content is for educational purposes only and is not a substitute for
+  professional medical advice. Always consult your healthcare provider.
+affiliate_disclaimer: >-
+  Some links on this site are affiliate links. I may earn a commission at no
+  extra cost to you. I only recommend products I trust and believe will help
+  you.
+
+# ----- TECHNICAL SETTINGS -----
+# For Jekyll
+permalink: /:year/:month/:title/
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# ----- THEME -----
+# If using Beautiful Jekyll or Minimal Mistakes
+theme: beautiful-jekyll-theme
+
+# ----- PLUGINS -----
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
 
-markdown: kramdown
-
-permalink: /blog/:year/:month/:day/:title/
-
-timezone: United States/New York 
-
+# ----- EXCLUDE FILES -----
 exclude:
-  - README.md
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
