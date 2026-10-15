@@ -7,7 +7,7 @@ author:
   name: PeriodWise
 
 navbar-links:
-  Home: ""
+  Home: "home"
   Cycle & Fertility: "cycle-fertility"
   Blog: "blog"
   Shop: "shop"
