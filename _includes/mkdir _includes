@@ -1,0 +1,25 @@
+<div class="periodwise-footer">
+  <hr>
+
+  <p><strong>PeriodWise</strong> — Understand Your Cycle. Track Your Patterns. Know Your Body.</p>
+
+  <p>
+    <a href="{{ '/about/' | relative_url }}">About</a> |
+    <a href="{{ '/contact/' | relative_url }}">Contact</a> |
+    <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a> |
+    <a href="{{ '/terms/' | relative_url }}">Terms &amp; Conditions</a> |
+    <a href="{{ '/medical-disclaimer/' | relative_url }}">Medical Disclaimer</a>
+  </p>
+
+  <p>
+    <a href="https://app.periodwise.online" target="_blank" rel="noopener noreferrer">Use the PeriodWise App</a> |
+    <a href="https://t.me/periodwise" target="_blank" rel="noopener noreferrer">Join Our Telegram Community</a>
+  </p>
+
+  <p>
+    Questions? Email
+    <a href="mailto:periodwise12@gmail.com">periodwise12@gmail.com</a>
+  </p>
+
+  <p>&copy; {{ site.time | date: "%Y" }} PeriodWise. All rights reserved.</p>
+</div>
