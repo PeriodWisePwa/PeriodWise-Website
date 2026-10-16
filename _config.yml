@@ -1,5 +1,3 @@
-# _config.yml
-
 title: PeriodWise
 description: Understand your cycle. Understand your body.
 url: "https://periodwise.online"
@@ -14,13 +12,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
-
-# 👇 This is what actually works — applies footer-extra to every page
-defaults:
-  - scope:
-      path: ""
-    values:
-      footer-extra: periodwise-footer.html
 
 navbar-links:
   Home: "home"
