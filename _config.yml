@@ -6,13 +6,6 @@ baseurl: ""
 author:
   name: PeriodWise
 
-remote_theme: daattali/beautiful-jekyll
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
-
 navbar-links:
   Home: "home"
   Cycle & Fertility: "cycle-fertility"
@@ -23,10 +16,20 @@ navbar-links:
   Privacy Policy: "privacy-policy"
   Terms & Conditions: "terms"
   Contact: "contact"
+  
+remote_theme: daattali/beautiful-jekyll
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+footer-extra: periodwise-footer.html
 
 markdown: kramdown
+
 permalink: /blog/:year/:month/:day/:title/
-timezone: United States/New York
+
+timezone: United States/New York 
 
 exclude:
   - README.md
