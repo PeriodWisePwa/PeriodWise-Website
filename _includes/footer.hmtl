@@ -1,0 +1,49 @@
+<footer>
+    <div class="container beautiful-jekyll-footer">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                <p class="copyright text-muted">
+                    {{ site.author.name }} &copy; {{ site.time | date: '%Y' }}
+                    &nbsp;&bull;&nbsp;
+                    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+                </p>
+
+                <!-- ===== PERIODWISE CUSTOM FOOTER ===== -->
+                <div class="periodwise-footer" style="margin-top: 30px; font-size: 0.9em; text-align: center;">
+                    <hr style="margin: 20px auto; border-top: 1px solid #eee;">
+                    
+                    <h2>🌷 Your Journey. Your Records. Your Story.</h2>
+                    <p>PeriodWise resources are designed to help you keep meaningful records while learning more about your own cycle and reproductive health journey.</p>
+                    
+                    <blockquote style="border-left: 4px solid #ccc; padding-left: 15px; text-align: left; margin: 20px auto; max-width: 600px;">
+                        <p><strong>Important:</strong> PeriodWise products provide educational and organizational resources. They are not a substitute for professional medical advice, diagnosis or treatment.</p>
+                    </blockquote>
+
+                    <p><strong>PeriodWise</strong> — Understand Your Cycle. Track Your Patterns. Know Your Body.</p>
+
+                    <p>
+                        <a href="{{ '/about/' | relative_url }}">About</a> |
+                        <a href="{{ '/contact/' | relative_url }}">Contact</a> |
+                        <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a> |
+                        <a href="{{ '/terms/' | relative_url }}">Terms &amp; Conditions</a> |
+                        <a href="{{ '/medical-disclaimer/' | relative_url }}">Medical Disclaimer</a>
+                    </p>
+
+                    <p>
+                        <a href="https://app.periodwise.online" target="_blank" rel="noopener noreferrer">Use the PeriodWise App</a> |
+                        <a href="https://t.me/periodwise" target="_blank" rel="noopener noreferrer">Join Our Telegram Community</a>
+                    </p>
+
+                    <p>
+                        Questions? Email <a href="mailto:periodwise12@gmail.com">periodwise12@gmail.com</a>
+                    </p>
+                    
+                    <p>&copy; {{ site.time | date: "%Y" }} PeriodWise. All rights reserved.</p>
+                </div>
+                <!-- ===== END PERIODWISE CUSTOM FOOTER ===== -->
+
+            </div>
+        </div>
+    </div>
+</footer>
