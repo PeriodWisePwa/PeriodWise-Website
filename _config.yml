@@ -14,7 +14,8 @@ plugins:
   - jekyll-seo-tag
 
 navbar-links:
-  Home: "" 
+  Home: "/"
+  # ... other links
   Cycle & Fertility: "cycle-fertility"
   Blog: "blog"
   Shop: "shop"
