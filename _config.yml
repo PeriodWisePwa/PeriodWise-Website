@@ -14,7 +14,7 @@ plugins:
   - jekyll-seo-tag
 
 navbar-links:
-  Home: "home"
+  Home: "www.periodwise.online"
   Cycle & Fertility: "cycle-fertility"
   Blog: "blog"
   Shop: "shop"
