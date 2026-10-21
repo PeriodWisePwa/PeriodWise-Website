@@ -2,6 +2,7 @@
 layout: page
 title: Get Your Free PeriodWise Guide
 subtitle: Practical nutrition ideas to support a healthy menstrual cycle.
+permalink: /free-guide/
 ---
 
 <script type="text/javascript">
