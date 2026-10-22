@@ -13,7 +13,7 @@ permalink: /tags/
 {% for tag in sorted_tags %}
   {% assign tag_name = tag | first %}
   {% assign tag_posts = tag | last %}
-  {% assign tag_id = tag_name | slugify %}
+  {% assign tag_id = tag_name | slugify %} 
 
   <section class="tag-section">
     <h2 id="{{ tag_id | escape }}">{{ tag_name | escape }}</h2>
