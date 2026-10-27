@@ -8,7 +8,7 @@ author:
 
 remote_theme: daattali/beautiful-jekyll
 
-google_analytics: G-PZDJJF5JM2
+gtag: G-PZDJJF5JM2
 
 plugins:
   - jekyll-remote-theme
